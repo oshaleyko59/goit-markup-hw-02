@@ -112,6 +112,12 @@ body {
   color: var(--color-footer-link);
 }
 
+.footer-link:hover,
+.footer-link:focus,
+.address:hover,
+.address:focus {
+  color: var(--color-accent);
+}
 /* ============================== HERO ============================== */
 
 
