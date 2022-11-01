@@ -15,7 +15,6 @@ body {
   background-color: var(--color-background);
   color: var(--color-primary);
   font-family: Roboto, sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -72,16 +71,18 @@ body {
 
 .nav-list {
   font-weight: 500;
-  letter-spacing: 0.02em; */
+  letter-spacing: 0.02em;
 }
 
 .nav-list-link {
   color: var(--color-secondary);
   line-height: 1.14;
 }
-/* .contact-list {} */
+
+.contact-list {}
 
 .contact-list-link {
+  font-weight: 500;
   color: var(--color-primary);
   line-height: 1.14;
 }
@@ -160,7 +161,7 @@ body {
 
 .profile-title {
   color: var(--color-secondary);
-  font-weight: 700;
+  font-size: 14px;
   line-height: calc(16 / 14);
   text-align: left;
   text-transform: uppercase;
@@ -198,7 +199,6 @@ background-color: var(--color-background-secondary);
 }
 
 .team-card-description {
-  font-weight: 400;
 }
 
 
@@ -236,6 +236,5 @@ background-color: var(--color-background-secondary);
 .project-type {
   color: var(--color-primary);
   font-size: 16px;
-  font-weight: 400;
   line-height: calc(30 / 16);
 }
